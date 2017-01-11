@@ -1,0 +1,136 @@
+﻿
+html {
+    font-size: 17px;
+}
+
+body {
+    font-size: 1rem;
+}
+
+h1 {
+  font-size: 3.5em;
+}
+h2 {
+  font-size: 2.5rem;
+}
+h3 {
+  font-size: 2rem;
+}
+
+
+/*
+GENERAL STYLES
+***************************/
+.div-fw {
+    width: 100%;
+    padding: 5%;
+}
+
+.bg-white {
+    background-color: white;
+}
+
+.cont-test {
+    min-height: 200px;
+    border: 1px solid black;
+}
+
+
+.pd-5-5 {
+    padding: 5% 5%;
+}
+
+.text-center {
+    text-align: center;
+}
+
+
+/*
+CONTENT DIVS
+***************************/
+
+.content-1 {
+    height: 100vh;
+    text-align: center;
+    background: url("../img/7.jpg");
+        color: lightcyan;
+}
+.content-2 {
+    min-height: 300px;
+    text-align: left;
+    background-color: white;
+    color: black;
+}
+.content-3 {
+    background-color: lightgreen;
+    min-height: 300px;
+}
+.content-4 {
+    background-color: black;
+    min-height: 300px;
+}
+.content-5 {
+    background-color: lightgoldenrodyellow;
+    min-height: 300px;
+}
+
+/*
+INNER CONTENT ELEMENTS
+***************************/
+
+.content-bar {
+    border: 1px solid black;
+    max-height: 700px;
+}
+
+.btn-custom {
+    background-color: white;
+    color: black;
+    border: 1px solid white;
+    padding: 10px;
+    border-radius: 5px;
+    display: inline-block;
+    transition-duration: 0.4s;
+
+}
+
+.btn-custom:hover {
+    color: rebeccapurple;
+    text-decoration: none;
+    box-shadow: 2px 4px 4px lightblue;
+}
+
+/*
+GRADENTIFY
+***************************/
+
+#gradentify {
+    background: #836997;
+}
+
+#gradentify-inner {
+    background-color: black;
+    margin: 2.3% 1%;
+    padding: 5% 5%;
+    border: 1px solid black;
+}
+
+/*
+DRAGULA
+***************************/
+#dragula-left {
+    float: left;
+}
+
+#dragula-right {
+    float: right;
+}
+
+
+/*
+MEDIA QUERIES
+***************************/
+
+@media (max-width: 900px) {
+  /* html { font-size: 16px; }  MAYBE */
+}
